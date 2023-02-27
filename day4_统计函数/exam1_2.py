@@ -1,4 +1,6 @@
 import pandas as pd
+import PIL
+
 
 if __name__ == '__main__':
     # （二）使用适当的python库进行综合数据分析，代码保存为week2.py：
@@ -14,6 +16,7 @@ if __name__ == '__main__':
     print(df2)
 
     # # 14.根据color字段进行分组，统计carat字段最大值、最小值、均值
+    print('=================')
     df3=df.groupby(by='color').agg({'carat': ['max', 'min', 'mean']})
     print(df3)
 
@@ -41,3 +44,4 @@ if __name__ == '__main__':
     # 20.删除字段x,y,z，生成新的数据集，保存到excel文件
     df.drop(['x','y','z'],axis=1,inplace=True)
     print(df)
+    

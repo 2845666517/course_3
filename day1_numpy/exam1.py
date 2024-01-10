@@ -17,7 +17,7 @@ if __name__ == '__main__':
 # 5．获取arr2的轴的数量
     zhou=np.ndim(arr2)
     print(zhou)
-# 6．获取arr2的第1行第2列
+# 6．获取arr2的第1行第2列,
     num=arr2[1,2]
     print(num)
 # 7．获取arr2的数组元素总个数,

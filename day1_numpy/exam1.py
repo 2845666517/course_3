@@ -20,7 +20,7 @@ if __name__ == '__main__':
 # 6．获取arr2的第1行第2列,
     num=arr2[1,2]
     print(num)
-# 7．获取arr2的数组元素总个数,
+# 7．获取arr2的数组元素总个数
     arr_count=Counter(arr)
     print(arr_count)
 # 8．获取arr2的元素类型,

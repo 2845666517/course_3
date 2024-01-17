@@ -22,7 +22,6 @@ pipeline{
             steps{
                 echo "hello world!"
                 echo "${url_clone_url}"
-
             }
         }
     }
